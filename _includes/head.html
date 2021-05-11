@@ -1,0 +1,11 @@
+
+<div id="head">
+    <h1>{{ page.title | upcase }} - STAN</h1>
+
+    <ul class="menu">
+        <li><a href="./">home</a></li>
+    {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+</div>

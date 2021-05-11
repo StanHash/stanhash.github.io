@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+$back_color: #202020;
+$body_color: #D0D0D0;
+$link_color: #9030D0;
+$body_font: 'Open Sans', sans-serif;
+
+body
+{
+    background: $back_color;
+    color: $body_color;
+    font-family: $body_font;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div#head, div#foot
+{
+    padding: 8px;
+    text-align: center;
+    background: $body_color;
+    color: $back_color;
+}
+
+div#head p
+{
+    font-style: italic;
+}
+
+div#head .menu
+{
+    padding: 0px;
+
+    li
+    {
+        display: inline-block;
+
+        a
+        {
+            color: $back_color;
+            text-decoration: none;
+        
+            padding: 4px 16px;
+        
+            border: 2px solid $back_color;
+        
+            &:hover
+            {
+                color: $body_color;
+                background: $back_color;
+            }
+        }
+    }
+}
+
+div#foot a, .content a
+{
+    color: $link_color;
+    text-decoration: none;
+
+    &:hover
+    {
+        text-decoration: underline;
+    }
+}
+
+.content
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
