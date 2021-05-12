@@ -1,11 +1,12 @@
 
 <div id="head">
-    <h1>{{ page.title | upcase }} - STAN</h1>
-
+    <p>
+        stan's stuff about programming and reverse engineering video games
+    </p>
     <ul class="menu">
-        <li><a href="./">home</a></li>
-    {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+        <li><a href="/">home</a></li>
+        <li><a href="/about.html">about</a></li>
     </ul>
+
+    <h1>{{ page.title | upcase }}</h1>
 </div>

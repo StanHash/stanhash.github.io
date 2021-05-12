@@ -3,7 +3,7 @@
 
 $back_color: #202020;
 $body_color: #D0D0D0;
-$link_color: #9030D0;
+$link_color: #A050F0;
 $body_font: 'Open Sans', sans-serif;
 
 body
@@ -11,8 +11,7 @@ body
     background: $back_color;
     color: $body_color;
     font-family: $body_font;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 div#head, div#foot
